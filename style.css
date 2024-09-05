@@ -418,6 +418,9 @@ tr:hover {
         flex-direction: column;
     }
 
+    .academic h2{
+        transform:translateX(-10%);
+    }
     table, thead, tbody, th, td, tr {
         display: block;
     }
