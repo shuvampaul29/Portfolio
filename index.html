@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfilio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Shuvam Paul</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#academic">Academics</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn">Visit GitHub</button>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="My_Pic-modified.png" alt="My Photo">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I am</h3>
+                    <h1>Shuvam Paul</h1>
+                    <span>Software Developer</span>
+                </div>
+                <div class="btn-group">  
+                    <button class="btn" id="CV" target="blank">Download CV</button>
+                    <button class="btn" id="contact-btn">Contact</button>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-github" id="git-logo" ></i>
+                    <i class="fa-brands fa-linkedin" id="in-logo"></i>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <section class="courses" id="courses">
+        <h2 class="section-title">Courses</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card" id="graduation">
+                    <i class="fa-solid fa-terminal"></i>
+                    <span>Programming In C</span>
+                    <h3>April 23-June 23</h3>
+                    <p>I completed the course with GRADE A. </p>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-logo">
+                    <i class="fa-brands fa-react "></i>
+                    <i class="fa-brands fa-node"></i>
+                    </div>
+                    <span>MERN</span>
+                    <h3>Nov 23-Aug 24</h3>
+                    <p>I create a TOUR & TRAVELS website. Go to the project section for more details..</p>
+                </div>
+
+                <div class="grid-card">
+                    <!-- <i class="fa-solid fa-laptop"></i> -->
+                    <span>Empty</span>
+                    <!-- <h3>10 year</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, iure.</p> -->
+                </div>
+
+                <div class="grid-card">
+                    <!-- <i class="fa-solid fa-list"></i> -->
+                    <span>Empty</span>
+                    <!-- <h3>5 years</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, iure.</p> -->
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section id="academic" class="experience">
+
+        <h2 class="section-title">Academics</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Degree</th>
+                    <th>Board/University</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Year">2022-2025</td>
+                    <td data-label="Degree">BCA</td>
+                    <td data-label="Board/University">MAKAUT University</td>
+                    <td data-label="Marks">
+                        <ul>
+                            <li>1st Sem - 7.5</li>
+                            <li>2nd Sem - 7.3</li>
+                            <li>3rd Sem - 7.46</li>
+                            <li>4th Sem - 7.77</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td data-label="Year">2022</td>
+                    <td data-label="Degree">12th</td>
+                    <td data-label="Board/University">West Bengal Board of Higher Secondary Education</td>
+                    <td data-label="Marks">88.2%</td>
+                </tr>
+                <tr>
+                    <td data-label="Year">2020</td>
+                    <td data-label="Degree">10th</td>
+                    <td data-label="Board/University">West Bengal Board of Secondary Education </td>
+                    <td data-label="Marks">53.6%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="project.png" alt="">
+            <h3>Project X</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatum</p>
+            <div class="btn-group">
+                <div class="btn">Live Demo</div>
+                <div class="btn">GitHub Repo</div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="project.png" alt="">
+            <h3>Project X</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatum</p>
+            <div class="btn-group">
+                <div class="btn">Live Demo</div>
+                <div class="btn">GitHub Repo</div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="project.png" alt="">
+            <h3>Project X</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatum</p>
+            <div class="btn-group">
+                <div class="btn">Live Demo</div>
+                <div class="btn">GitHub Repo</div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="contact" id="contact" >
+        <h2 class="section-title">Contact Me</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="9e11a047-07d2-4799-92d3-2cf354ab637c">
+        <div class="input-box">
+            <div class="input">
+                <input type="text" placeholder="Enter your name" name="name">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input">
+                <input type="email" placeholder="Enter your email" name="email" required>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button class="btn">Submit</button>
+        </div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
