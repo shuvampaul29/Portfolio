@@ -419,7 +419,7 @@ tr:hover {
     }
 
     .academic h2{
-        transform:translateX(-50%);
+        margin-left: 20px;
     }
     table, thead, tbody, th, td, tr {
         display: block;
