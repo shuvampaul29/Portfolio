@@ -411,6 +411,12 @@ tr:hover {
     .about-container{
         flex-direction: column;
     }
+    .section-title{
+        font-size: 3rem ;
+    }
+    .btn-group{
+        flex-direction: column;
+    }
 
     table, thead, tbody, th, td, tr {
         display: block;
