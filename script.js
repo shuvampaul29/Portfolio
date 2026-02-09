@@ -22,3 +22,11 @@ document.getElementById('git-logo').addEventListener('click', function() {
 document.getElementById('in-logo').addEventListener('click', function() {
     window.open('https://www.linkedin.com/in/shuvam-paul-555449280/', '_blank');
 });
+
+document.getElementById('demo-btn-1').addEventListener('click', function() {
+    window.location.href = 'https://sayanbhattacharjee2000.github.io/Weather-Website/';
+});
+
+document.getElementById('repo-btn-1').addEventListener('click', function() {
+    window.location.href = 'https://github.com/sayanBhattacharjee2000/Weather-Website';
+});
