@@ -24,9 +24,9 @@ document.getElementById('in-logo').addEventListener('click', function() {
 });
 
 document.getElementById('demo-btn-1').addEventListener('click', function() {
-    window.location.href = 'https://sayanbhattacharjee2000.github.io/Weather-Website/';
+    window.location.href = ('https://sayanbhattacharjee2000.github.io/Weather-Website/', '_blank');
 });
 
 document.getElementById('repo-btn-1').addEventListener('click', function() {
-    window.location.href = 'https://github.com/sayanBhattacharjee2000/Weather-Website';
+    window.location.href = ('https://github.com/sayanBhattacharjee2000/Weather-Website', '_blank');
 });
